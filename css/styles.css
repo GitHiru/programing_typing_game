@@ -1,7 +1,8 @@
-body {
+main {
   padding-top: 40px;
   font-family: 'Courier New', monospace;
   text-align: center;
+  background-color: #000;
 }
 
 #target {

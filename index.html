@@ -6,17 +6,26 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <article class="game">
-    <p id="target">Click to Start</p>
-    <p class="info">
-      Letter count: <span id="score">0</span>,
-      Miss count: <span id="miss">0</span>
-      Time Left: <span id="timer">0</span>
-    </p>
-  </article>
-  <article class="add_woeds">
+  <main>
+    <article class="game">
+      <p id="target">Click to Start</p>
+      <p class="info">
+        Letter count: <span id="score">0</span>,
+        Miss count: <span id="miss">0</span>
+        Time Left: <span id="timer">0</span>
+      </p>
+    </article>
 
-  </article>
+    <article class="add_woeds">
+      <form action="update.php" method="post">
+        <input
+          type="text"
+          placeholder="ADD TYPING WORD"
+          valu=""
+          >
+      </form>
+    </article>
+  </main>
 
   <script src="js/main.js"></script>
 </body>
